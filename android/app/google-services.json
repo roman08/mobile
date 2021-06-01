@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "453855427639",
+    "firebase_url": "https://velmie-wallet-78bb0.firebaseio.com",
+    "project_id": "velmie-wallet-78bb0",
+    "storage_bucket": "velmie-wallet-78bb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453855427639:android:4973f0e39cd3c4bc4193b2",
+        "android_client_info": {
+          "package_name": "com.velmie.walletfluter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453855427639-6aau7r7hf6h6tq0dfqchv7a4d9b0fk5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHmaK96c63FxNopG5r-zY_wPOwXbua6gQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453855427639-6aau7r7hf6h6tq0dfqchv7a4d9b0fk5g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "453855427639-oem50ur5fasieou78ooh7e9l8vauq37d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.velmie.wallet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

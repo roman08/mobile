@@ -1,0 +1,9 @@
+{
+    "name": "Velmie",
+    "request": "launch",
+    "type": "flutter",
+    "args": [
+        "--flavor",
+        "stage"
+    ]
+}

@@ -1,0 +1,14 @@
+default_platform(:android)
+
+platform :android do
+  desc "Submit a new Build to Firebase App Distribution"
+  lane :deploy_beta do
+    firebase_app_distribution(
+      app: "1:151183924090:android:9c684a044c8fb1740954c3",
+      groups: "all",
+      release_notes: "",
+      firebase_cli_path: "/usr/local/bin/firebase",
+      apk_path: "../build/app/outputs/apk/release/app-release.apk"
+    )
+  end
+end

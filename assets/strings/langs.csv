@@ -1,0 +1,513 @@
+str,en,es
+aba_rtn,ABA/RTN,ABA/RTN
+account_created,Your account has been created,Tu cuenta ha sido creada
+account_level,Account Level,Nivel de Cuenta
+account_not_found,Account not found,Cuenta no encontrada
+add_cards,Add Cards,Agregar tarjetas
+add_fund,Add Fund,Agregar fondo
+add_funds,Add Funds,Agregar fondos
+add_info,Additional Information,Información adicional
+add_money,Add money,Agregar dinero
+add_new_wallet,Add new account,Agregar nueva cuenta
+additional_security,Additional Security,Seguridad Adicional
+address,Address,Dirección
+alert,Alert,Alerta
+all,All,Todos
+all_transfers,All transfers,Todas las transferencias
+amount,Amount,Monto
+and,and,y
+app_name,Kraun,Kraun
+avatar,Avatar,Avatar
+bank_account,Bank Account,Cuenta bancaria
+bank_settings,My Card & Bank Settings,Mi Tarjeta & Configuraciones bancarias
+beneficiary,Beneficiary,Beneficiario
+beneficiary_phone_number,Beneficiary's Phone Number,Número telefónico de beneficiarios
+bill_category,Bill Category,Categoría de factura
+bill_number,Bill Number,Número de factura
+biller,Biller,Emisor
+billers_merchants,Billers/Merchants,Facturadores/Comerciantes
+biometric_connect,Connect,Conectar
+biometric_connect_description,Connect Face Id and you can use application without entering passcode or password,Conecte el Identificar Facial y podrá usar la  aplicación sin usar el código de acceso o contraseña
+biometric_face_id_alert,Setup Face ID to enter without access code,Configura tu Face ID para ingresar sin código de acceso
+biometric_face_id_message,Connect Biometrics and you can use application without entering passcode or password,Conecta tu Face Id y podrás usar la aplicación sin ingresar un código de acceso o contraseña
+biometric_face_id_title,Face ID,Reconocimiento facial
+biometric_touch_id_action,Connect Touch ID,Conectar Touch ID
+biometric_touch_id_alert,Setup Touch ID to enter without access code,Configuración de Touch ID para ingresar sin código de acceso
+biometric_touch_id_alert,Setup Touch ID to enter without access code,Configuración de Touch ID para ingresar sin código de acceso
+biometric_touch_id_message,Connect Biometrics and you can use application without entering passcode or password,Conecte Biométricos y podrá usar la aplicación sin usar código de acceso o contraseña
+blocked_account,Looks like your account is locked,Parece que tu cuenta está restringuida
+blocked_ip,Looks like your IP is blocked,Parece que tu IP está bloqueda
+buy_insurance,Buy Insurance,Comprar seguro
+buy_stocks,Buy Stocks,Comprar acciones
+cancel,Cancel,Cancelar
+cannot_forgot_password,Unable to restore password,No es possible restarurar la contraseña
+cant_make_transactions_between_your_accounts,You cannot make transactions between your accounts,No es posible que realices transacciones entre tus cuentas
+cant_request_money,Now you can request money only from Kraun clients,Ahora puedes solicitar dinero solo a los clientes de la App
+cant_sent_money,Now you can send money only to Kraun clients,Ahora puedes enviar dinero solo a clientes de la App
+card_number,Card Number,Número de tarjeta
+categories,Categories,Categorías
+cash_in,Cash in,Agregar fondos
+cash_out,Cash out,Retirar fondos
+change_nickname_description,It’s a short name for easy communication,Es un nombre completo para facilitar la comunicación
+change_passcode,Change Passcode,Cambiar código de acceso
+change_password,Change Password,Cambiar contraseña
+change_password_description,Fill follow fields to change the password.,Completa los siguientes campos para actualizar tu contraseña.
+check_your_email_instructions,Check your email for instructions,Revisa tu cuenta de correo para instrucciones
+check_your_sms_instructions,Check your sms for instructions,Revisa tu SMS para instrucciones
+clear,Clear,Borrar
+close,Close,Cerrar
+code_sent_to_number,Code has been sent to number,El código se ha enviado al número
+code_sent_to_your_email,Code has been sent to you email address,El código ha sido enviado a su correo electrónico
+confirm_new_password,Confirm New Password,Confirmar nueva contraseña
+confirmation,Confirmation,Confirmación
+connect_address_book,Connect Address Book,Conectar con Libreta de Direcciónes
+continue,Continue,Continuar
+country,Country,País
+create_account,Create an Account,Crear una Cuenta
+create_new_password,Create a new password,Crear una nueva contraseña
+create_passcode,Set a passcode for your account,Establezca un código de acceso para su cuenta
+credit_card,Credit Card,Tarjeta de Crédito
+currency_swap,Currency Swap,Intercambio de moneda
+cvv,CVV,CVV
+date_created,Date Created,Fecha de creación
+date_from,Date From,Fecha Inicio
+date_of_birth,Date of Birth,Fecha de Nacimiento
+date_to,Date To,Fecha Fin
+decimal_gte_validation,Invalid decimal part,Parte decimal inválida
+delete,Delete,Eliminar
+delete_request,Delete Request?,Eliminar solicitud?
+delete_send_money_request,Do you want to delete send money request? You won’t see it again,¿Quieres eliminar la solicitud de envío de dinero? No volverlo a ver de nuevo
+deposit_not_allowed,It is not allowed to perform deposit to this account,No está permitido realizar depósitos en esta cuenta.
+description,Description,Descripción
+done,Done,Creado
+dynamic,Dynamic,Dynamic
+email_or_phone_number,Email Address or Phone Number,Dirección de correo electrónico o número de teléfono
+enter_pass_code,Enter your Passcode,Ingresa tu código de acceso
+error,Error,Falla
+error_blocked_account,Looks like your account is locked,Parece que tu cuenta está bloqueada
+error_blocked_ip,Looks like your IP is blocked,Para que tu dirección IP está bloqueada
+error_email_already_exists,Provided email already exists,El correo electrónico proporcionado ya existe
+error_field_is_required,Field is required,Campo indispensable
+error_insufficient_wallet_balance,Insufficient Account Balance,Saldo insuficiente
+error_internet_connection,Internet Connection Error,Sin conexión a internet
+error_invalid_code,Invalid code!,Invalid code!
+error_invalid_email,The e-mail address is not valid,Esta dirección de correo electrónico no es válida
+error_invalid_password,Invalid password,Contraseña inválida
+error_invalid_password_or_email,"Sorry, unrecognized username or password. Have you forgotten your password?","Disculpa, no se reconoce el usuario o la contraseña. ¿Haz olvidado tu contraseña?"
+error_invalid_phone_number,Invalid phone number!,Número de teléfono inválido
+error_maintenance_mode,The system is in maintenance mode,El Sistema se encuentra en mantenimiento
+error_max_chars,Should be maximum {count} chars,Debe tener máximo {count} caracteres
+error_min_chars,Should be minimum {count} chars,Debe tener mínimo {count} caracteres
+error_password_mismatch,Password mismatch,La contraseña no coincide
+error_password_requirements,"Should contain at least 1 number, 1 uppercase letter and 1 special character","Debe tener mínimo 1 número, 1 mayúscula y 1 caracter especial"
+error_passwords_do_not_match,Passwords do not match,Las contraseñas no coinciden
+error_phone_already_exists,Provided phone number already exists,El número de teléfono ingresado ya existe
+error_should_be_minimum_eight_characters,Should be a minimum of 8 characters,Debe tener mínimo 8 caracteres
+error_should_be_minimum_three_characters,Should be a minimum of 3 characters,Debe tener mínimo 3 caracteres
+error_something_went_wrong,Something went wrong!,¡ Algo salió mal !
+error_transaction_not_possible_due_to_difference_currency,"The transaction is not possible due to difference in currency types you and your contact use","La transacción no es posible realizarla, debido a la diferencia de tipos de moneda que tú y tu contacto usan"
+error_user_not_found,The user is not found,El usaurio no se encotró
+error_users_user_is_dormant,The user has dormant status,El usuario está en estatus inactivo
+error_users_user_is_not_active,The user is not active,El usuario no está activo
+error_users_user_is_pending,The user has status pending,El usuario tiene estatus pendiente
+expiration_date,Expiration Date,Fecha de vigencia
+explanation_text_why_ask_and_where,Explanation Text why we ask and where to switch off (in system settings),Explanation Text why we ask and where to switch off (in system settings)
+evolve,Evolve,Evolve
+failed,Failed,Falló
+fee,Fee,Cuota
+field_should_not_be_empty,Field should not be empty,Campo obligatorio
+fill_fields_to_create_password,Fill the following fields to create a new password.,Complete los campos de seguimiento para crear una nueva contraseña.
+first_name,First Name,Nombre
+first_should_not_be_empty,First Name should not be empty,Nombre debe ingresarse
+financial_operations,Financial Operations,Operaciones Financieras
+foods,Foods,Comidas
+forgot_password,Forgot Password?,¿Has olvidado tu contraseña?
+full_name,Full Name,Nombre Completo
+full_name_change_description,Please enter your complete and legal name,Por favor escribe tu nombre completo y legalmente registrado
+generate_qr_code,Generate QR-code,Generar código QR
+get_new_code,Get new code,Obtener nuevo código
+get_new_code_in,Get new code in,Obtener un nuevo código de acceso
+group_details_level,Level,Nivel
+hello,Hello,Hola
+how_it_works,How it works,Cómo funciona
+iban,Acc# / IBAN,Acc# / IBAN
+incoming,Incoming,Entrante
+incoming_wire_transfer,Incoming wire transfers,Transferencia bancaria entrante
+iwt_owt,IWT/OWT,TBE/TES
+invalid_confirmation_code,Invalid confirmation code,Código de confirmación inválido
+insufficient_wallet_balance,Insufficient Account Balance,Saldo insuficiente en tu cuenta
+invalid_code,Invalid code!,Código inválido!
+invalid_email,Invalid email,Cuenta de correo inválida
+invalid_password,Invalid password,Contraseña inválida
+invalid_password_or_email,"Sorry, unrecognized username or password. Have you forgotten your password?","Disculpa, no reconocemos el usuario o contraseña. Olvidaste tu contraseña?"
+invalid_phone_number,Invalid phone number!,Número movil inválido!
+investment_products,Investment Products,Productos de Inversión
+iwt,Incoming wire transfers,Transferencias electrónicas entrantes
+kyc_account_level,KYC Level,Account Profile
+kyc_add_document,Add Identification Document,Agregar Documento de Identificación
+kyc_add_document_photo,Add Document Photo,Agregar foto
+kyc_add_full_name,Add Full Name,Agregar Nombre Completo
+kyc_add_maiden,Add Mother’s Maiden Name,Agregar Apellido Materno
+kyc_add_photo,Add photo,Agregar foto
+kyc_add_selfie,Add Selfie,Agregar Sefie
+kyc_address_1_line,Address,Dirección
+kyc_address_2_line,Address (2nd line),Dirección (2a línea)
+kyc_address_city,City,Ciudad
+kyc_address_country,Country,País
+kyc_address_verification,Address Verification,Verificar dirección
+kyc_address_verification_note,Please provide your address information,Por favor ingresa tu dirección
+kyc_address_zip,Zip/Postal Code,CP/Código Postal
+kyc_alert_1,Please,Por favor
+kyc_alert_2,complete,registre su perfil completo
+kyc_alert_3,your Profile.,antes de solicitar una cuenta de inversión.
+kyc_birthday_note,What is your Date of Birth?,¿Cuál es tu Fecha de Nacimiento?
+kyc_birthday_title,Add Date of Birth,Agregar Fecha de Nacimiento
+kyc_change_document_photo,Change Document Photo,Cambiar foto
+kyc_change_photo,Change photo,Cambiar foto
+kyc_check_quality,Check Quality,Comprobar Calidad
+kyc_code_verification_error,Wrong code entered,Se ingreso un código erróneo
+kyc_confirm,Confirm,Confirmar
+kyc_current_level,Current Level,Current Profile
+kyc_date_format,DD/MM/YYYY,DD/MM/YYYY
+kyc_document_readable,Document is Readable,El documento es legible
+kyc_email_note,Code has been sent to you email address,El código se envió a tu cuenta de correo
+kyc_email_verified,Email address is verified,Cuenta de correo se está verificando
+kyc_error,Error,Error
+kyc_full_name_note,What is your Full Name?,Cuál es tu nombre completo?
+kyc_get_new_code,Get new code,Obtener un nuevo código
+kyc_id_national,National ID,ID Nacional
+kyc_id_number,ID Number,Número de ID
+kyc_identification_document,Identification Document,Documento de identificación
+kyc_identification_document_note,Please provide a document that verify your personality,"Por favor, provee un documento que confirme tu identidad"
+kyc_mother_name_note,What is your Mother's Maiden Name?,Cuál es tu apellido materno?
+kyc_new_picture,Take a New Picture,Tomar una Nueva Foto
+kyc_phone_note,Code has been sent to you phone,El código se envió a tu número movil
+kyc_phone_verified,Phone number is verified,Numero de movil se está verificando
+kyc_quality_description,"Make sure your card is physically present,all details are clear to read with no blur or glare.","Make sure your card is physically present,all details are clear to read with no blur or glare."
+kyc_select_from_galery,Select from Gallery,Seleccionar de galería
+kyc_selfie,Selfie,Selfie
+kyc_selfie_note,My selfie is clear,Mi selfie está clara
+kyc_send_email_code,Code has been sent to you email address,El código se envió a tu cuenta de correo
+kyc_send_request,Send Upgrade Request,Enviar solicitud de actualización
+kyc_send_sms_code,Code has been sent to you phone number,Code has been sent to you phone number
+kyc_success,Success,Satisfactorio
+kyc_success_body,We’ll check you information and send you notification shortly.,Revisaremos tu información y te enviaremos una notificación lo antes posible.
+kyc_success_title,You requested upgrade your account level to,Tu solicitud de incrementar el nivel de tu cuenta a
+kyc_take_new_picture,Take a New Picture,Tomar una Nueva Foto
+kyc_take_shot,Take a Shot,Tomar una captura
+kyc_type_note,Please provide a document that verify your personality,Por favor entrega un documento que acredite tu persona
+kyc_unverified,Unverified,Sin confirmar
+kyc_upgrade,Upgrade,Aumentar
+kyc_verification_code,Verification Code,Código de Verificación
+kyc_verification_progress,Verification Progress,Progreso de la verificación
+kyc_verified,Verified,Confirmado
+kyc_your_features,Your Features,Tus Características
+kyc_your_limits,Your Limits,Tus Límites
+last_name,Last Name,Apellido
+later,Later,Después
+link_accounts,Link Accounts,Vincular Cuentas
+location,Location,Localidad
+logout,Logout,Salir
+method,Payment Method,Método de Pago
+more,More,Más
+more_with_dots,more...,más…
+most_popular_payments,Most Popular Payments,Pagos más populares
+mpesa,Mpesa,Mpesa
+my_account_settings,My Account Settings,Configuración de mi Tarjeta
+name,Name,Nombre
+new_passcode,New passcode,Nuevo código de acceso
+new_password,New Password,Nueva contraseña
+next,Next,Siguiente
+nickname,Nickname,Usuario
+no_notifications,There are no notifications yet,Aún no hay notificaciones
+no_transactions,There are no transactions yet,Aún no hay transacciones
+notifications,Notifications,Notificaciones
+number_attempts,The number of attempts:,Número de intentos:
+ok,OK,OK
+old_passcode,Old passcode,Código de acceso anterior
+old_password,Old Password,Contraseña anterior
+open,Open,Abrir
+open_bank_account,Open Bank Account,Abrir cuenta bancaria
+open_request,Open Request,Abrir solicitud
+open_request_description,Payers can enter amount they wish to pay,Quien te pagará puede ingresar la cantidad que recibirás
+orobo,Kraun,Craunvek
+orobo_account_create,Your account has been created,Tu cuenta ha sido creada
+other_services,Other Services/Products,Otros servicios / Productos
+others,Others,Otros
+outgoing,Outgoing,Saliente
+overview,Overview,Descripción general
+overview_view,Overview,Vista general
+outgoing_wire_transfer,Outgoing wire transfers,Transferencias electrónicas salientes
+pass_code_fail,Error entering passcode,Error ingresando en código de acceso
+passcodes_not_match,"Passcodes do not match, try again",Tu código de acceso no coincide
+password,Password,Contraseña
+password_and_passcode,Password and Passcode,Contraseña y código de acceso
+password_has_been_changed,Password has been changed,La contraseña se modificó satisfactoriamente
+password_has_been_created,Password has been created,Se ha creado la contraseña
+password_mismatch,Password mismatch,Falta la contraseña
+password_requirements,"Should contain at least 1 number, 1 uppercase letter and 1 special character","Debe contener al menso un número, una mayúscula y un carácter especial"
+passwords_do_not_match,Passwords do not match,La contraseña no coincide
+pay_bills,Pay Bills,Pagar facturas
+pay_invoice,Pay Invoice,Factura de pago
+payers_enter_amount,Payers can enter amount they wish to pay.,Quien pagué puede ingresar el monto que desee pagar
+payments,Payments,Pagos
+pending,Pending,Pendiente
+phone_exists,Entered phone number already exists,El número telefónico ingresar ya existe
+phone_invalid,Phone number is invalid,El número telefónico es inválido
+phone_is_not_confirmed,Phone number is not confirmed,El número telefónico no está confirmado aún
+phone_number,Phone Number,Número movil
+phone_number_code,Code,Código
+please_enter_code,Please enter the code we sent to you,Por favor ingresa el código que te enviamos
+please_verify_personality,Please verify your personality to get full access to transactions,Por favor verifica tu cuenta de perfil ara tener acceso total a transacciones
+performance,Performance+,Performance+
+privacy_policy,Privacy Policy,Política de Privacidad
+proceed,Proceed,Continuar
+profile,Profile,Perfil
+profile_details,Profile details,Detalles de Perfil
+provide_details,Please enter your user details,Por favor ingresa los detalles del usuario
+qr_code,QR-Code,Código QR
+qr_code_details,QR-Code Details,Detalle del código QR
+recent_transfers,Recent Transfers,Transferencias recientes
+recipient,Recipient,Receptor
+recipient_wallet,Recipient Account,Cuenta destino
+ref_message,Ref message,Mensaje de referencia
+repeat_code,Repeat Code,Repetir código
+repeat_new_passcode,Repeat new passcode,Repetir el código de acceso
+repeat_pass_code,Repeat passcode,Repita el código de acceso
+repeat_password,Repeat Password,Repite la contraseña
+request_contacts,Request contacts,Solicitud de contactos
+request_from_contact,Request from Contact,Solicitud de contacto
+request_money,Request Money,Solicitar dinero
+request_money_by_qr_code,Request Money by QR-Code,Pedir dinero por código QR
+request_password_reset,Request Password Reset,Solicitud para reiniciar la contraseña
+reset_password,Reset Password,Reiniciar contraseña
+save,Save,Guardar
+save_to_gallery,Qr-Code has been featured in a gallery,Qr-Code se muestra como elemento en la galería
+scan_to_pay,Scan to Pay,Escanear para Pagar
+scepify_bank,Specify Intermediary Bank,Especificar banco intermediario
+search,Search,Buscar
+second_should_not_be_empty,Second Name should not be empty,Apellido debe ingresarse
+select_date_range,Select Date Range,Seleccionar rango de fechas
+select_wallet,Select account,Seleccionar cuenta
+send,Send,Enviar
+send_by_payment_link,Send by Payment Link,Enviar Liga de Pago
+send_by_request,Send money by Request,Enviar dinero por solicitud
+send_invoice,Send Invoice,Enviar factura
+send_money,Send Money,Enviar dinero
+send_money_by_qr_code,Send Money by QR-Code,Enviar dinero por código QR
+send_money_requests,Send Money Requests,Enviar Solicitudes de Dinero
+send_to_contact,Send to Contact,Enviar al contacto
+settings,Settings,Configuraciones
+share,Share,Compartir
+should_be_minimum_eight_characters,Should be a minimum of 8 characters,Mínimo 8 caracteres
+should_be_minimum_three_characters,Should be a minimum of 3 characters,Mínimo 3 caracteres
+sign_in,Sign in,Ingresar
+sign_up,Sign up,Registrarme
+sign_up_corporate_1,Please follow this,Síguenos
+sign_up_corporate_2,link,liga
+sign_up_corporate_3,to the web application to sign up as a corporate user.,a la aplicación web para registrarse como usuario corporativo.
+sign_up_success,Success!,Felicidades!
+skip,Skip,Salir
+slide_slogan_subtitle,Easy way to send money to your friends and close people,Texto de marketing a mostrar
+sms_code,SMS-Code,Código SMS
+snapshot,Snapshot,Captura instantánea
+something_went_wrong,Something went wrong!,Algo falló!
+source,Source,Fuente
+source_phone_number,Source Phone Number,Número telefónico de origen
+source_wallet,Source Account,Cuenta origen
+specials_and_offers,Specials & Offers,Ofertas
+status,Status,Estatus
+submit,Submit,Enviar
+success,Success,Éxito
+successful,Successful,Éxito
+success_voucher,Your request was sent correctly,Su solicitud se envió correctamente
+support,24x7 Help & Support,Ayuda y Soporte 24x7
+swift_bic,SWIFT / BIC,SWIFT / BIC
+terms_and_privacy_policy,By creating an account you agree to our Terms of Service and Privacy Policy,"Al crear una cuenta, acepta nuestros Términos de servicio y Política de privacidad."
+terms_polity_accept,Accept,Aceptar
+terms_polity_legal,Legal,Legales
+terms_polity_privacy_policy,Privacy Policy,Políticas de Privacidad
+terms_polity_review,Please review the Privacy Policy and Terms of Services,Por favor revisar la Política de Privacidad y los Términos y Condiciones del Servicio
+terms_polity_terms_of_service,Terms of Service,Términos de Servicio
+today,Today,Hoy
+top_up_balance,Top Up Balance,Recargar Saldo
+total,Total,Total
+transaction_details,Transaction Details,Detalles de transacción
+transaction_id,Transaction ID,Transacción ID
+transaction_not_possible_due_to_difference_currency,The transaction is not possible due to difference in currency types you and your contact use,La transacción no fue realizada por ser diferentes los tipos de moneda que tu menajas y tu contacto de destino.
+transactions,History,Historial
+transfer,Transfer,Transferir
+travels,Travels,Viajes
+type_of_document,Type of document,Tipo de documento
+unknown_email_or_phone_number,Unrecognized email or phone number,Unrecognized email or phone number
+unrecognized_username_or_password,"Sorry, unrecognized username or password","Disculpa, no reconocemos el usuario o contraseña"
+upgrade_kyc_level,Upgrade KYC Level,Incrementar nivel
+use_face_id,Use Face ID,Usa ID de rostro
+use_touch_id_id,Use Touch ID,Usar Touch ID
+verification_code,Verification Code,Código de verificación
+verify_code,Verify code,Código de verificación
+verify_your_identity,Verify your Identity,Verificar tu identidad
+view_all,View All,Ver todos
+wallet,Account,Cuenta
+wallet_balance,Account Balance,Saldo de Cuenta
+wallet_from,Account From,Cuenta origen
+wallet_id,Account ID,Cuenta ID
+wallet_to,Account To,Cuenta destino
+wallets,Accounts,Cuentas
+we_send_you_email_or_sms,Enter Email Address or Phone number you registered with and we'll send you an email or sms with password reset instructions.,Ingrese la dirección de correo electrónico o el número de teléfono con el que se registró y le enviaremos un correo electrónico o SMS con instrucciones para el restablecimiento de la contraseña.
+whats_new,What's new,Qué hay de nuevo?
+withdraw,Withdraw,Retirar
+withdrawals_not_allowed,It is not allowed to perform withdrawals from this account,No tienes permitido realizar retiros de esta cuenta
+wrong_email_or_phone_number,Wrong email or phone number,Cuenta de correo erronea
+yesterday,Yesterday,Ayer
+you_agree_with,By creating an account you agree to our,"Al crear una cuenta, aceptas nuestros"
+you_can_review_transfer_history,You can review your transfer in your transaction history,Puede revisar tu transferencia en el historial de transacciones
+you_dont_have_currency_wallet,You don’t have a account in the currency that was requested. Please create one to complete transaction,No tienes una cuenta de la moneda solicitada. Crea una para concluir la transacción
+your_request_sent_for_approval,Your request has been sent for approval. Request id: {id},Your request has been sent for approval. Request id: {id}
+system_language,System Language,Lenguaje del sistema
+individual,Individual,Persona física
+corporate,Corporate,Persona moral
+profile_type,Profile type,Tipo de perfil
+investment_account,Investment account,Cuenta de Inversión
+requested_information,Requested information,Datos solicitados
+city,City,Ciudad
+state,State,Estado
+zip_code,ZIP Code,Código Postal
+name_of_the_bank,Name of the Bank,Nombre del Banco
+swift,SWIFT,SWIFT
+e_signature,E-signature,E-firma
+requested_documents,Requested documents,Documentos requeridos
+official_id,Official ID (INE or passport),Identificación Oficial (INE o Pasaporte)
+e_signature_file,E-Signature File,E-Firma Archivo
+sign_here,Sign Here,Firma Aquí
+funds_since,Funds Since,Fondos desde
+multi_currency,Multi-currency,Multi moneda
+annual_returns_of,Annual Returns of,Retorno Anual de
+maintain_minimum_capital_for_half_year,Maintain minimum capital for half a year,Mantener mínimo el capital por medio año
+maintain_minimum_capital_for_one_year,Maintain minimum capital for one year,Mantener mínimo el capital por un año
+annual_fee,Annual fee,Cuota anual
+request,Request,Solicitud
+currency,Currency,Moneda
+investment_account_requested,Investment account requested,Solicitud de Cuenta de Inversión
+welcome_title_1,Send Money,Envía Dinero
+welcome_title_2,Request Money,Solicita te Envíen Dinero
+welcome_title_3,Send Remittances,Envía Remesas y Amigos
+welcome_slogan_1,To Family and Friend,A Familiares y Amigos
+welcome_slogan_2,By QR Code or from your contacts,Por Código QR o de tu lista de contactos
+welcome_slogan_3,"Easy, Security and Fast","Fácil, Seguro y Rápido"
+transaction_details_information,"Do more with Confialink! Send money across Caribbean,purchase Airtime,comprar Tiempo Aire,Request and Receive payments from and into your account.","¡Haz mucho más con Confialink! Envía dinero, realiza pagos desde y hacia tu cuenta y muchos servicios más."
+id_document,ID Document,ID del documento
+front,Front,Frente
+back,Back,Reverso
+user_selfie,User Selfie,Selfie del Usuario
+proof_of_residence,Proof of residence,Comprobante de domicilio
+voucher,Cash in,Agregar fondos
+send_voucher,Send Voucher, Envíar VoucHer
+issue_card,Issue card,Emisión de tarjeta
+issue_the_card,Issue the card,Emitir la tarjeta
+i_accept,I accept,Acepto
+terms_and_conditions,Terms and conditions,Términos y condiciones
+i_have_read_the_information_on,I have read the information on,He leído la información de
+card_related_fees,Card related fees,Tarjetas relacionadas con la tarjeta
+the_card_requested,The card requested,La tarjeta solicitada
+phone_number_10_digits,Phone Number (10 digits),Número de teléfono (10 dígitos)
+account_settings,Password and Passcode,Contraseña y Código
+legal_terms_and_commercial_conditions,Legal Terms and Commercial Conditions,Términos y Condiciones Legales y Comerciales
+contact_us,Contact us,Contacto
+your_source_funds,Your source funds (business since when),Origen de tus fondos (giro y tiempo)
+second_name,Second name,Segundo Nombre
+if_you_need_some_assistance,If you need some assistance or help please send us an email,Si requieres asistencia o ayuda escríbenos un correo electrónico
+email,Email,Correo electrónico
+the_visa_card_will_be_issued,"The Visa Card will be issued for you and will be delivered to the address specified in your profile. The card issuance may take up to 2 weeks","The Visa Card will be issued for you and will be delivered to the address specified in your profile. The card issuance may take up to 2 weeks"
+company_name,Company name,Nombre de la empresa
+company_address_street_and_number,Company Address (street and number),Dirección de la empresa (calle y número)
+company_phone_number,Company Phone Number,Teléfono de la empresa
+date_of_company_incorporated,Date of company incorporate,Fecha de constitución de la empresa
+company_website,Company Website,Sitio web de la empresa
+legal_representative_name,Legal representative name,Nombre del representante legal
+address_of_the_representative,Address of the representative (street and number),Dirección del representante (calle y número)
+official_id_of_the_representative,Official ID of the legal representative (INE or passport),ID del representante legal (INE o Pasaporte)
+articles_of_incorporation,Articles of incorporation of the company and assembly documents,Acta constitutiva de la empresa y actas de asamblea
+proof_of_permanent_address_for_the_company,Proof of permanent address for the company,Comprobante de domicilio de la empresa
+legal_proof_of_tax_id_number,Legal proof of Tax ID number,Documento del RFC de la empresa
+affidavit_providing_detailed_account,Affidavit providing detailed account of the business source of wealth,Constancia de situación fiscal de la empresa ante el SAT
+proof_of_address,Proof of address,Comprobante de domicilio
+official_id_beneficial_owners,Official ID -Beneficial owners (control person and/or persons with ≥ 10% interest),Identificación oficial para dueños con más del 10% de participación
+proof_of_permanent_address_beneficial_owners,Proof of permanent address -Beneficial owners (control person and/or persons with ≥ 10% interest),Comprobante de domicilio para dueños con más del 10% de participación
+questionnaire_of_origin_and_destination_of_funds,Questionnaire of origin and destination of funds,Cuestionario de origen y destino de los fondos
+you_cant_create_a_signature,You can’t create a signature,Crear tu firma
+cant_sign_document_names_not_filled,"Please, go to Customer profile and sign Terms and Conditions","Por favor, vaya al perfil del cliente y firme los términos y condiciones"
+specify_beneficiary_bank,Specify Beneficiary Bank,Especifica el Banco Beneficiario
+specify_beneficiary_customer,Specify Beneficiary Customer,Especifica el Cliente Beneficiario
+additional_information,Additional Information,Información Adicional
+specify_intermediary_bank,Specify Intermediary Bank,Especifica un Banco Intermediario
+transfer_details,Transfer Details,Detalles de la Transferencia
+please_upgrade_your_kyc_level,"Please, upgrade you KYC level","Disculpa, actualiza los datos de tu Perfil"
+sorry_you_can_request_one_card_only,"Sorry, you can request one card only","Disculpa, solo puedes solicitar una tarjeta"
+transfer_success_title,"You’ve sent {amount} {currencyCode1} to {name}. Service fee: {fee} {currencyCode2}","You’ve sent {amount} {currencyCode1} to {name}. Service fee: {fee} {currencyCode2}"
+transfer_success_sub_title,"You can review your transfer in you transaction history.","You can review your transfer in you transaction history."
+you_requested_amount,You requested {amount} {currencyCode1} from {name}. Service fee: {fee} {currencyCode2},You requested {amount} {currencyCode1} from {name}. Service fee: {fee} {currencyCode2}
+error_invalid_confirmation_code,Invalid confirmation code,Clave de Confirmación no es válida
+name,Name(s),Nombre(s)
+fathers_surname,Father’s surname,Apellido paterno
+mothers_surname,Mother's name,Apellido Materno
+birthday,Birthday,Fecha de nacimiento
+gender,Gender,Género
+male,Male,Masculino
+female,Female,Femenino
+not_answer,I prefer not to answer,Prefiero no responder
+country_of_birth,Country of birth,Pais de nacimiento
+nationality,Nationality,Nacionalidad
+phone,Phone,Número de teléfono
+email_address,Email Address,Dirección de correo electrónico
+home_address_street_and_number,Home address (street and number),Domicilio (calle y número)
+complete_home_address,Complete Home Address,Dirección completa de domicilio
+tax_id_number,Tax ID number (RFC or other),RFC personal
+account_number,Account number,Número de Cuenta bancaria
+bank_branch_address,Bank Branch Address,Dirección de la sucursal bancaria
+proof_of_permanent_address,Proof of permanent address (Telmex or CFE),Comprobante de domicilio (Telmex o CFE)
+proof_of_tax_id_number,Proof of Tax ID number,Documento del RFC personal
+proof_of_income_statement,SAT´s FIEL document,Archivo FIEL del SAT
+last_bank_account_statement,Last two bank statements,Últimos dos estados de cuenta bancarios
+affidavit,Affidavit for legal origin of funds,Declaración jurada (afidávit) de origen lícito de riqueza
+affidavit_short,Affidavit,Declaración jurada
+affidavit_title,AFFIDAVIT - LEGAL ORIGIN OF FUNDS,DECLARACIÓN JURADA DE ORIGEN LICITO DE RIQUEZA
+affidavit_me,"I,","Yo,"
+affidavit_me_placeholder,(full name),(nombre completo de persona física)
+affidavit_text_1,"hereby certify that the funds I am about to deposit in APOYO APU, SA de CV, SOFOM ENR in order to be invested on my behalf have a legitimate and legal origin and, as such, are not the product of any illegal activity.","Por este medio declaro en mi nombre y bajo fe de juramento, que los fondos que depositaré en APOYO APU, SA de CV, SOFOM ENR con el fin de ser invertidos en mi nombre, son de procedencia lícita y, por ende, no se derivan o están relacionadas con actividades ilícitas."
+affidavit_sources_description,"The funds that I will deposit were generated from these activities:","El origen de los fondos a depositar es:"
+affidavit_activities,Activities,Ocupaciones
+affidavit_salaries,Salaries and wages,Salarios
+affidavit_savings,Own savings,Ahorros propios
+affidavit_professional_services,Professional services,Prestacion de servicios profecionales
+affidavit_inheritances,Inheritances,Herencias
+affidavit_rental_of_properties,Rental of properties,Renta de propiedades
+affidavit_investments_in_real_estates,Investments in real estate and/or personal property,Inversiones en bienes muemles y/o inmuebles
+affidavit_investment_yields,Investment yields,Rendimientos de inversiones propias
+affidavit_pension,Pension/retirement,Pensiones/jubilacion
+affidavit_commercial_activity,Commercial activity (own business),Actividad comercial (negocio propio)
+affidavit_others,Others,Otros
+affidavit_text_2,"Furthermore, I hereby authorize APOYO APU, SA de CV, SOFOM ENR to verify by hired or its own means, the information provided. I also exonerate said financial institution from any responsibilities whatsoever that may arise from the fact that false information regarding the origin of the funds was provided.","En virtud de lo anteriormente manifestado, autorizo a APOYO APU, SA de CV, SOFOM ENR a que verifique por medios propios o contratados, la información suministrada. Exonero a la mencionada institución de las responsabilidades que hubiere en caso de comprobarse suministro de datos falsos, origen o destino ilícito de los fondos y dar así cumplimiento a lo establecido en las leyes al respecto."
+affidavit_text_3,"I declare under oath that all information provided is true and consistent with the existing Anti-Money Laundering (AML) and Combating the Financing of Terrorism (CFT) legislation in Mexico.","Declaro, bajo protesta de decir verdad, que los datos asentados son ciertos y son en cumplimiento y para los efectos de la Ley Federal para la Prevención e identificación de Operaciones con Recursos de Procedencia Ilícita y demás normatividad aplicable para la prevención de lavado de dinero y de financiamiento al terrorismo."
+affidavit_personal_information,Personal Information,Datos personales
+affidavit_full_name,Full name,Nombre Completo
+affidavit_address,Address,Dirección
+affidavit_curp,CURP or Passport Number,CURP
+affidavit_nationality,Nationality,Nacionalidad
+affidavit_tax_id,Tax id # / RFC,RFC
+affidavit_date,Date,Fecha
+affidavit_place,Place,Lugar
+file_too_large,The uploaded file(s) is too large,The uploaded file(s) is too large
+product_list,Product of list, Lista de productos
+cash_out_title,Outgoing Wire Transfer Details,Detalle de la transferencia bancaria saliente
+cash_out_subtitle,The account owner must be at your name registered with the external bank.,El titular de la cuenta debe ser a tu nombre como estás registrado en el banco
+cash_out_titular,Account owner,Titular de la cuenta
+cash_out_banco,Bank’s name,Nombre del banco
+cash_out_cuenta,Account number,Número de cuenta bancaria
+cash_out_clave,CLABE (México),CLABE interbancaria
+cash_out_swift,SWIFT,SWIFT
+cash_out_aba,ABA,ABA
+cash_out_referencia,Additional references,Referencias adicionales
+cash_out_monto,Amount,Monto solicitado
+cash_out_saldo,Balance,Saldo
+cash_out_inversion,Minimal investment,Inversión mínima

@@ -1,0 +1,178 @@
+---
+format_version: '8'
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+project_type: flutter
+app:
+  envs:
+    - FASTLANE_XCODE_LIST_TIMEOUT: '120'
+    - FASTLANE_WORK_DIR: android
+      opts:
+        is_expand: false
+    - opts:
+        is_expand: false
+      FASTLANE_LANE: android deploy_beta
+    - opts:
+        is_expand: false
+      BITRISE_PROJECT_PATH: ios/Runner.xcworkspace
+    - opts:
+        is_expand: false
+      BITRISE_SCHEME_DEV: Runner
+trigger_map:
+  - push_branch: develop
+    workflow: debug_build
+  - push_branch: release_*
+    workflow: stage_build
+  - tag: "*"
+    workflow: release_build
+workflows:
+  debug_build:
+    steps:
+      - activate-ssh-key@4:
+          run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+      - git-clone@4: {}
+      - change-android-versioncode-and-versionname@1:
+          inputs:
+            - build_gradle_path: "$BITRISE_SOURCE_DIR/android/app/build.gradle"
+      - set-xcode-build-number@1:
+          inputs:
+            - plist_path: "$BITRISE_SOURCE_DIR/ios/Runner/Info.plist"
+      - cache-pull@2: {}
+      - flutter-installer@0: {}
+      - flutter-build@0:
+          inputs:
+            - ios_additional_params: "--debug --no-codesign"
+            - android_additional_params: "--debug --build-number=$BITRISE_BUILD_NUMBER"
+      - ios-auto-provision-appstoreconnect@0:
+          inputs:
+            - scheme: "$BITRISE_SCHEME_DEV"
+      - xcode-archive@2:
+          inputs:
+            - team_id: "$APPLE_TEAM"
+            - upload_bitcode: 'no'
+            - compile_bitcode: 'no'
+            - scheme: "$BITRISE_SCHEME_DEV"
+            - export_method: development
+      - deploy-to-bitrise-io@1:
+          is_always_run: false
+          inputs:
+            - deploy_path: "$BITRISE_APK_PATH"
+      - slack@3:
+          inputs:
+            - color: "#f5da42"
+            - webhook_url: "$ANDROID_BUILD_SLACK"
+          is_always_run: false
+      - deploy-to-bitrise-io@1:
+          inputs:
+            - deploy_path: "$BITRISE_IPA_PATH"
+      - slack@3:
+          inputs:
+            - channel: "#ios-build"
+            - webhook_url: "$IOS_BUILD_SLACK"
+            - color: "#f5da42"
+            - is_debug_mode: 'yes'
+          is_always_run: false
+      - cache-push@2: {}
+  release_build:
+    steps:
+      - activate-ssh-key@4:
+          run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+      - git-clone@4: {}
+      - change-android-versioncode-and-versionname@1:
+          inputs:
+            - build_gradle_path: "$BITRISE_SOURCE_DIR/android/app/build.gradle"
+      - set-xcode-build-number@1:
+          inputs:
+            - plist_path: "$BITRISE_SOURCE_DIR/ios/Runner/Info.plist"
+      - cache-pull@2: {}
+      - flutter-installer@0: {}
+      - flutter-build@0:
+          inputs:
+            - android_output_type: appbundle
+            - android_additional_params: "--release --build-number=$BITRISE_BUILD_NUMBER"
+      - sign-apk@1: {}
+      - ios-auto-provision-appstoreconnect@0:
+          inputs:
+            - distribution_type: app-store
+            - scheme: "$BITRISE_SCHEME_DEV"
+      - xcode-archive@2:
+          inputs:
+            - team_id: "$APPLE_TEAM"
+            - upload_bitcode: 'no'
+            - compile_bitcode: 'no'
+            - scheme: "$BITRISE_SCHEME_DEV"
+            - export_method: app-store
+      - deploy-to-bitrise-io@1:
+          is_always_run: false
+          inputs:
+            - deploy_path: "$BITRISE_AAB_PATH"
+      - slack@3:
+          inputs:
+            - color: "#3ef05c"
+            - webhook_url: "$ANDROID_BUILD_SLACK"
+          is_always_run: false
+      - deploy-to-bitrise-io@1:
+          inputs:
+            - deploy_path: "$BITRISE_IPA_PATH"
+          is_always_run: false
+      - deploy-to-itunesconnect-application-loader@0:
+          inputs:
+            - api_key_path: "$BITRISEIO_API_KEY_URL_URL"
+            - api_issuer: "$ISSUER_ID"
+      - slack@3:
+          inputs:
+            - channel: "#ios-build"
+            - webhook_url: "$IOS_BUILD_SLACK"
+            - color: "#3ef05c"
+            - is_debug_mode: 'yes'
+          is_always_run: false
+      - cache-push@2: {}
+  stage_build:
+    steps:
+      - activate-ssh-key@4:
+          run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+      - git-clone@4: {}
+      - change-android-versioncode-and-versionname@1:
+          inputs:
+            - build_gradle_path: "$BITRISE_SOURCE_DIR/android/app/build.gradle"
+      - set-xcode-build-number@1:
+          inputs:
+            - plist_path: "$BITRISE_SOURCE_DIR/ios/Runner/Info.plist"
+      - cache-pull@2: {}
+      - flutter-installer@0: {}
+      - flutter-build@0:
+          inputs:
+            - android_output_type: appbundle
+            - android_additional_params: "--release --build-number=$BITRISE_BUILD_NUMBER"
+      - sign-apk@1: {}
+      - ios-auto-provision-appstoreconnect@0:
+          inputs:
+            - distribution_type: app-store
+            - scheme: "$BITRISE_SCHEME_DEV"
+      - xcode-archive@2:
+          inputs:
+            - team_id: "$APPLE_TEAM"
+            - upload_bitcode: 'no'
+            - compile_bitcode: 'no'
+            - scheme: "$BITRISE_SCHEME_DEV"
+            - export_method: app-store
+      - deploy-to-bitrise-io@1:
+          is_always_run: false
+          inputs:
+            - deploy_path: "$BITRISE_AAB_PATH"
+      - slack@3:
+          inputs:
+            - color: "#039dfc"
+            - webhook_url: "$ANDROID_BUILD_SLACK"
+          is_always_run: false
+      - deploy-to-bitrise-io@1:
+          inputs:
+            - deploy_path: "$BITRISE_IPA_PATH"
+          is_always_run: false
+      - slack@3:
+          inputs:
+            - channel: "#ios-build"
+            - webhook_url: "$IOS_BUILD_SLACK"
+            - color: "#039dfc"
+            - is_debug_mode: 'yes'
+          is_always_run: false
+      - cache-push@2: {}
